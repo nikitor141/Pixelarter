@@ -1,0 +1,31 @@
+.field {
+  width: 414px;
+  height: 414px;
+  margin: 12% auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #eee;
+}
+.cell {
+  width: 15.76923076923077px;
+  height: 15.76923076923077px;
+  cursor: pointer;
+}
+.red {
+  border: 1px solid #EC5142;
+  background-color: #de4738;
+}
+.red:not(.white):hover {
+  background-color: #EC5142;
+}
+.white {
+  border: none;
+  background-color: white;
+}
+.h1 {
+  color: #de4738;
+  font-size: 12px;
+  text-align: center;
+}
