@@ -1,7 +1,18 @@
+.reset {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #ff0900;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  color: #ff0900;
+  font-size: 14px;
+  font-weight: bold;
+}
 .field {
-  width: 414px;
-  height: 414px;
-  margin: 12% auto 0;
+  width: 804px;
+  height: 804px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
@@ -9,23 +20,34 @@
   border: 2px solid #eee;
 }
 .cell {
-  width: 15.76923076923077px;
-  height: 15.76923076923077px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
-.red {
-  border: 1px solid #EC5142;
-  background-color: #de4738;
-}
-.red:not(.white):hover {
-  background-color: #EC5142;
-}
 .white {
-  border: none;
   background-color: white;
 }
-.h1 {
-  color: #de4738;
-  font-size: 12px;
-  text-align: center;
+.white:hover {
+  background-color: #eee;
+}
+.red {
+  background-color: #ff0900;
+}
+.orange {
+  background-color: #ff7f00;
+}
+.yellow {
+  background-color: #ffef00;
+}
+.green {
+  background-color: #00f11d;
+}
+.blue {
+  background-color: #0079ff;
+}
+.purple {
+background-color: #a800ff;
+}
+.black {
+  background-color: black;
 }
