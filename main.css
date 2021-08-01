@@ -1,4 +1,45 @@
-@import "reset.scss";
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
+}
+
+.fixed-container {
+  width: 96%;
+  margin: 0 auto;
+}
+
 .reset {
   width: 150px;
   height: 50px;
@@ -10,52 +51,67 @@
   font-size: 14px;
   font-weight: bold;
 }
+
 .field {
   width: 804px;
   height: 804px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   border-radius: 10px;
   overflow: hidden;
   border: 2px solid #eee;
 }
+
 .cell {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
+
 .white {
   background-color: white;
 }
+
 .white:hover {
   background-color: #eee;
 }
+
 .red {
   background-color: #ff0900;
 }
+
 .orange {
   background-color: #ff7f00;
 }
+
 .yellow {
   background-color: #ffef00;
 }
+
 .green {
   background-color: #00f11d;
 }
+
 .blue {
   background-color: #0079ff;
 }
+
 .purple {
-background-color: #a800ff;
+  background-color: #a800ff;
 }
+
 .black {
   background-color: black;
 }
+
 .color-picker {
-	display: block;
-	width: 804px;
-	height: 100px;
-	margin: 0 auto;
-	border: none;
+  display: block;
+  width: 804px;
+  height: 100px;
+  margin: 0 auto;
+  border: none;
 }
