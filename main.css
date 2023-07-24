@@ -23,10 +23,9 @@ ul {
 button {
   cursor: pointer;
   border: none;
-}
-
-button:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 body, html {
@@ -70,42 +69,10 @@ body, html {
   width: 20px;
   height: 20px;
   cursor: pointer;
-}
-
-.white {
-  background-color: white;
-}
-
-.white:hover {
-  background-color: #eee;
-}
-
-.red {
-  background-color: #ff0900;
-}
-
-.orange {
-  background-color: #ff7f00;
-}
-
-.yellow {
-  background-color: #ffef00;
-}
-
-.green {
-  background-color: #00f11d;
-}
-
-.blue {
-  background-color: #0079ff;
-}
-
-.purple {
-  background-color: #a800ff;
-}
-
-.black {
-  background-color: black;
+  
+  &:hover {
+    opacity: .5;
+  }
 }
 
 .color-picker {
